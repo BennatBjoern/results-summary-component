@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/results-summary-component-using-flexbox-qUkFNNsdQT)
-- Live Site URL: [Add live site URL here](https://bennatbjoern.github.io/results-summary-component/)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/results-summary-component-using-flexbox-qUkFNNsdQT)
+- Live Site URL: [Github pages](https://bennatbjoern.github.io/results-summary-component/)
 
 ## My process
 
