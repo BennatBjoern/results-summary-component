@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+:root {
+  --light-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+  --light-red-transparent: hsla(0, 100%, 67%, 0.05);
+  --orangey-yellow-transparent: hsla(39, 100%, 56%, 0.05);
+  --green-teal-transparent: hsla(166, 100%, 37%, 0.05);
+  --cobalt-blue-transparent: hsla(234, 85%, 45%, 0.05);
+  --light-slate-blue: hsl(252, 100%, 67%);
+  --light-royal-blue: hsl(241, 81%, 54%);
+  --violet-blue: hsla(256, 72%, 46%, 1);
+  --persian-blue: hsla(241, 72%, 46%, 0);
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pale-blue);
+}
+
+.container {
+  width: 70rem;
+  display: flex;
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 2px 2px 50px ;
+box-shadow: 6px 7px 50px -8px rgba(0, 0, 0, 0.2);
+}
+
+.result {
+  width: 50%;
+  background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+  padding: 3rem 2rem 4rem;
+  border-radius: 30px;
+}
+
+.result-heading {
+  text-align: center;
+  color: var(--light-lavender);
+  padding: 2rem 0 4rem;
+  font-size: 2.4rem;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(var(--violet-blue), var(--persian-blue));
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.4rem;
+}
+
+.circle .result-score {
+  font-size: 6.8rem;
+  color: var(--white);
+  font-weight: 800;
+}
+
+.circle .result-end-score {
+  color: var(--light-lavender);
+  font-size: 1.8rem;
+  opacity: .5;
+}
+
+.result-text {
+  text-align: center;
+  color: var(--light-lavender);
+  padding: 0 3rem;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.result-text span {
+  display: block;
+  color: var(--white);
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.summary {
+  width: 50%;
+  padding: 3rem 3rem 2rem;
+  border-radius: 0 1230px 30px 0;
+}
+
+.summary-heading {
+  font-size: 2.4rem;
+  color: var(--dark-gray-blue);
+  padding: 2rem 0 4rem;
+}
+
+.summary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.summary-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+.reaction, .memory, .verbal, .visual {
+  padding: 1.4rem;
+}
+
+.reaction {
+  background-color: var(--light-red-transparent);
+}
+
+.reaction h2 {
+  color: var(--light-red);
+}
+
+.memory {
+  background-color: var(--orangey-yellow-transparent);
+}
+
+.memory h2 {
+  color: var(--orangey-yellow);
+}
+
+.verbal {
+  background-color: var(--green-teal-transparent);
+}
+
+.verbal h2 {
+  color: var(--green-teal);
+}
+
+.visual {
+  background-color: var(--cobalt-blue-transparent);
+}
+
+.visual h2 {
+  color: var(--cobalt-blue);
+}
+
+.summary-box div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.summary-score {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.summary-end-score {
+  color: var(--light-lavender);
+  font-weight: 500;
+}
+
+.btn {
+  background-color: var(--dark-gray-blue);
+  color: var(--white);
+  width: 100%;
+  padding: 1.6rem;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 1.8rem;
+  border: none;
+  margin-top: 2rem;
+}
+
+.btn:hover {
+  background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+}
+
+@media (max-width: 24em) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    border-radius: 30px 30px 0 0;
+  }
+  .result {
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+  }
+
+  .result, .summary {
+    padding: 2rem 2rem 3rem; 
+  }
+
+  .result-text {
+    font-size: 1.6rem;
+  }
+
+  .result-heading, .summary-heading {
+    font-size: 1.8rem;
+    padding: 1rem 1rem 2rem;
+  }
+
+  .summary {
+    width: 100%;
+  }
+
+  .btn {
+    margin-top: 0;
+  }
+}
