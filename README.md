@@ -88,7 +88,7 @@
 
 <div align=center>
 
-  <a href="https://linkedin.com/in/björn-bennat-38620719a" >
+  <a href="https://www.xing.com/profile/Bjoern_Bennat/cv" >
     <img alt="Static Badge" src="https://img.shields.io/badge/XING%20-%20?style=for-the-badge&logo=XING&logoColor=white&color=green" alt="Xing Profile">
   </a>&nbsp;&nbsp;&nbsp;
 
