@@ -28,7 +28,7 @@
 
   <!-- Difficulty -->
   <a href="https://www.frontendmentor.io/challenges"  >
-    <img alt="Static Badge" src="https://img.shields.io/badge/NEWBIE%20-%20?style=for-the-badge&logo=FRONTENDMENTOR&logoColor=white&label=DIFFICULTY&color=%236ABECD" alt="Challenge Difficulty - Newbie">
+    <img src="https://img.shields.io/badge/NEWBIE%20-%20?style=for-the-badge&logo=FRONTENDMENTOR&logoColor=white&label=DIFFICULTY&color=%236ABECD" alt="Challenge Difficulty - Newbie">
   </a>
 
 </div>
